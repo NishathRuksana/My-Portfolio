@@ -6,6 +6,8 @@ ENGO 551 - Adv. Topics on Geospatial Technologies
 
 This is my personal website, showcasing my academic background, professional experience, hobbies, and interests.
 
+**Live Website:** [https://nishathruksana.github.io/My-Portfolio/](https://nishathruksana.github.io/My-Portfolio/)
+
 ## Files
 - `index.html`: Homepage with an introduction and links to other pages.
 - `indian-cuisine.html`: A page about Indian cuisine, including a table of popular dishes.
