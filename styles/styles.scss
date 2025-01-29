@@ -1,0 +1,64 @@
+// SCSS Variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+// SCSS Nesting
+nav {
+  background-color: $primary-color;
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .nav-link {
+    color: white !important;
+  }
+}
+
+// SCSS Inheritance
+%center-text {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 {
+  @extend %center-text;
+  color: $primary-color;
+}
+
+// CSS Selectors
+#navbarNav {
+  justify-content: flex-end;
+}
+
+.container {
+  padding: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+// Style for preview sections
+.preview-section {
+  margin-bottom: 40px;
+  h2 {
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+  ul {
+    margin-left: 20px;
+  }
+  .btn {
+    margin-top: 10px;
+  }
+}
+
+// Mobile Responsive Query
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
