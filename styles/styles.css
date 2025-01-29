@@ -1,0 +1,56 @@
+nav {
+  background-color: #007bff;
+}
+nav .navbar-brand {
+  font-weight: bold;
+}
+nav .nav-link {
+  color: white !important;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 {
+  color: #007bff;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+.container {
+  padding: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.preview-section {
+  margin-bottom: 40px;
+}
+.preview-section h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+.preview-section ul {
+  margin-left: 20px;
+}
+.preview-section .btn {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  .navbar-nav {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
